@@ -1,0 +1,15 @@
+# VS Code
+.vscode/
+
+# MySQL Workbench
+*.mwb
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp

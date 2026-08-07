@@ -110,10 +110,7 @@ VALUES
 
 /*
 ==========================================================
-Project : Masai Road Auto Paints Management System
-File    : 03_Suppliers.sql
-Version : 1.0
-Author  : Bill Agunno
+File    : 03_SuppliersTable.sql
 
 Purpose:
 Creates the Suppliers table.
@@ -121,7 +118,6 @@ Creates the Suppliers table.
 ==========================================================
 */
 
-USE MasaiRoadAutoPaintsDB;
 
 DROP TABLE IF EXISTS Suppliers;
 
@@ -158,5 +154,3 @@ CREATE TABLE Suppliers
     CONSTRAINT UQ_SupplierName
         UNIQUE (SupplierName)
 );
-
-SELECT * FROM Suppliers;
